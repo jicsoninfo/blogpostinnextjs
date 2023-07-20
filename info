@@ -35,5 +35,24 @@ create folder inside dashboard with the name (auth) and copy login and register 
 app/dashboard/(auth)/login
 app/dashboard/(auth)/register
 
+create folder inside app/component
+app/component/footer/Footer.jsx
+app/component/navbar/Navbar.jsx
 
 
+
+
+
+https://github.com/jicsoninfo/blogpostinnextjs.git
+
+// git init
+// git add .
+// git commit -m "Add existing project files to Git"
+// git remote add origin https://github.com/jicsoninfo/blogpostinnextjs.git
+// git push -u -f origin main
+
+// git status
+//git add .
+//git commit -m "message"
+//git branch
+//git push origin master
