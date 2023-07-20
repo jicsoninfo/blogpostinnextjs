@@ -1,0 +1,39 @@
+npx create-next-app@latest .
+
+What is your project named? my-app
+Would you like to use TypeScript? No / Yes --no
+Would you like to use ESLint? No / Yes --Yes
+Would you like to use Tailwind CSS? No / Yes --no
+Would you like to use `src/` directory? No / Yes --yes
+Would you like to use App Router? (recommended) No / Yes --Yes
+Would you like to customize the default import alias? No / Yes --yes
+
+
+npm run dev
+
+create folder inside app folder
+app/components
+app/utils
+vscode extension e7 react/redux etc, ES7+ React/Redux/React-Native snippets
+v4.4.3
+in src/app folder create about folder
+app/about/page.jsx
+app/contact/page.jsx
+app/portfolio/page.jsx
+app/blog/page.jsx
+app/dashboard/page.jsx
+
+create folder inside blog with the name [id]
+app/blog/[id]/page.jsx
+app/portfolio/[category]/page.jsx
+
+create folder inside dashbaord
+app/dashboard/login/page.jsx
+app/dashboard/register/page.jsx
+
+create folder inside dashboard with the name (auth) and copy login and register folder inside it for grouping route
+app/dashboard/(auth)/login
+app/dashboard/(auth)/register
+
+
+
