@@ -1,7 +1,7 @@
-
+import styles from './page.module.css';
 const Blog =() => {
     return (
-      <div>Blog</div>
+      <div className={styles.container}>Blog</div>
     )
   }
   

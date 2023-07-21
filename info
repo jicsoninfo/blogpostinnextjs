@@ -1,5 +1,47 @@
 npx create-next-app@latest .
 
+Manual Installation  npm install next@latest react@latest react-dom@latest
+Open package.json and add the following scripts:
+package.json
+{
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  }
+}
+To use the app router, create an app/ folder, then add a layout.tsx and page.tsx file. 
+These will be rendered when the user visits the root of your application (/).
+app/layout.tsx
+
+TypeScript
+
+export default function RootLayout({
+  children,
+}: {
+  children: React.ReactNode
+}) {
+  return (
+    <html lang="en">
+      <body>{children}</body>
+    </html>
+  )
+}
+Finally, create a home page app/page.tsx with some initial content:
+
+app/page.tsx
+
+TypeScript
+
+export default function Page() {
+  return <h1>Hello, Next.js!</h1>
+}
+
+Run npm run dev to start the development server.
+Visit http://localhost:3000 to view your application.
+Edit app/layout.tsx (or pages/index.tsx) file and save it to see the updated result in your browser.
+
 What is your project named? my-app
 Would you like to use TypeScript? No / Yes --no
 Would you like to use ESLint? No / Yes --Yes

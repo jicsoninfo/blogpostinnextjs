@@ -1,0 +1,23 @@
+.container{
+    height: 5px;
+    font-size: 14px;
+    display: flex;
+    justify-content: space-betwwn;
+    align-items: center;
+}
+/* .imgContainer{
+    width: 15px;
+    height: 15px;
+    position: relative;
+} */
+
+.social{
+    display: flex;
+    align-items: center;
+    gap: 10px
+}
+
+.icon{
+    opacity: 0.6;
+    cursor: pointer;
+}
