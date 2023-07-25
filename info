@@ -97,4 +97,4 @@ https://github.com/jicsoninfo/blogpostinnextjs.git
 //git add .
 //git commit -m "message"
 //git branch
-//git push main master
+//git push origin main
