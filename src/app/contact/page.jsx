@@ -15,7 +15,7 @@ const Contact =() => {
                 <input type="text" placeholder="name" className={styles.input} />
                 <input type="text" placeholder="email" className={styles.input} />
                 <textarea
-                  className={styles.textarea}
+                  className={styles.textArea}
                   placeholder="message"
                   cols={30}
                   rows={10}
