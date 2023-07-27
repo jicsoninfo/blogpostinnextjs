@@ -6,7 +6,7 @@ const Contact =() => {
       <div>
         {/* <div className={styles.contact}>Contact contact</div> */}
         <div className={styles.container}>
-          <h1 className={styles.title}>Let's keep in Touch</h1>
+          <h1 className={styles.title}>Lets keep in Touch</h1>
           <div className={styles.content}>
             <div className={styles.imgContainer}>
               <Image src="/contact.png" alt="" fill={true} className={styles.image} />

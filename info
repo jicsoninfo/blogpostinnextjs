@@ -81,6 +81,10 @@ create folder inside app/component
 app/component/footer/Footer.jsx
 app/component/navbar/Navbar.jsx
 
+//https://jsonplaceholder.typicode.com/ for api 
+
+https://jsonplaceholder.typicode.com/posts
+
 
 
 
