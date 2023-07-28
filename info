@@ -85,7 +85,8 @@ app/component/navbar/Navbar.jsx
 
 https://jsonplaceholder.typicode.com/posts
 
-
+//sudo systemctl start mongod //--for start a mongodb
+//mongosh //enter into mongodb console
 
 
 
