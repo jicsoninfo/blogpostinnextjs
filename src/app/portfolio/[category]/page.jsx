@@ -1,4 +1,4 @@
-import notFound from 'next/navigation';
+import { notFound } from 'next/navigation';
 import styles from './page.module.css';
 import Button from '@/components/Button/Button';
 import Image from 'next/image';
@@ -8,8 +8,8 @@ const getData = (cat) =>{
   if(data){
     return data;
   }
-  throw new Error("Failed to fetch data");
-  //return notFound();
+  //throw new Error("Failed to fetch data");
+  return notFound();
 }
 const Category =({params}) => {
   //console.log(params)

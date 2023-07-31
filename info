@@ -87,6 +87,8 @@ https://jsonplaceholder.typicode.com/posts
 
 //sudo systemctl start mongod //--for start a mongodb
 //mongosh //enter into mongodb console
+//npm install mongodb //-- for install mongondb driver in node js
+
 
 
 
