@@ -1,6 +1,12 @@
 import Button from "@/components/Button/Button";
 import styles from "./page.module.css";
 import Image from "next/image";
+
+export const metadata = {
+  title: 'contact',
+  description: 'This is contact page',
+}
+
 const Contact =() => {
     return (
       <div>
