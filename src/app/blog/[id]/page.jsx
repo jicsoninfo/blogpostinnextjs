@@ -39,7 +39,8 @@ const Blogpost = async({params}) => {
             <p className={styles.desc}>{data.desc}</p>
             <div className={styles.author}>
               <Image 
-                src="https://images.pexels.com/photos/2103127/pexels-photo-2103127.jpeg"
+                // src="https://images.pexels.com/photos/2103127/pexels-photo-2103127.jpeg"
+                src={data.img}
                 alt=""
                 width={40}
                 height={40}
@@ -51,7 +52,8 @@ const Blogpost = async({params}) => {
           </div>
           <div className={styles.imageContainer}>
             <Image 
-              src="https://images.pexels.com/photos/2103127/pexels-photo-2103127.jpeg"
+              //src="https://images.pexels.com/photos/2103127/pexels-photo-2103127.jpeg"
+              src={data.img}
               alt=""
               fill={true}
               className={styles.image}
