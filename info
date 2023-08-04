@@ -90,8 +90,10 @@ https://jsonplaceholder.typicode.com/posts
 //npm install mongodb //-- for install mongondb driver in node js
 //https://authjs.dev/
 //https://authjs.dev/getting-started/introduction
+//https://www.youtube.com/watch?v=VE8BkImUciY
 
 npm install next-auth
+npm install bcryptjs
 
 
 https://github.com/jicsoninfo/blogpostinnextjs.git
